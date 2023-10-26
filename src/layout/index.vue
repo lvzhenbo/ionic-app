@@ -1,13 +1,15 @@
 <template>
-  <div>
+  <IonPage>
     <MenuLayout />
     <PageLayout />
-  </div>
+  </IonPage>
 </template>
 
 <script setup lang="ts">
+  import { IonPage } from '@ionic/vue';
   import MenuLayout from './menu.vue';
   import PageLayout from './page.vue';
+
   defineOptions({
     name: 'LayoutIndex',
   });

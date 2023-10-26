@@ -16,6 +16,7 @@
     "android:open": "ionic cap open android"
   },
   "dependencies": {
+    "@aashu-dubey/capacitor-statusbar-safe-area": "^2.1.1",
     "@capacitor/app": "5.0.6",
     "@capacitor/camera": "^5.0.7",
     "@capacitor/core": "5.5.0",

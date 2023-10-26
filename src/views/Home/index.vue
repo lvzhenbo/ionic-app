@@ -9,7 +9,12 @@
           <IonGrid>
             <IonRow>
               <IonCol v-for="item in groupList" :key="item.gid" size="6">
-                <IonButton :router-link="`/forum/${item.gid}`" fill="clear" class="text-black">
+                <IonButton
+                  :router-link="`/forum/${item.gid}`"
+                  expand="block"
+                  fill="clear"
+                  class="text-black"
+                >
                   {{ item.title }}
                 </IonButton>
               </IonCol>

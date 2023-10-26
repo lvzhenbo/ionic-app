@@ -1,7 +1,7 @@
 <template>
   <IonPage id="main-page">
     <IonHeader>
-      <IonToolbar color="primary">
+      <IonToolbar color="primary" class="!pt-[var(--safe-area-inset-top)]">
         <IonButtons slot="start">
           <IonMenuButton></IonMenuButton>
         </IonButtons>
@@ -39,6 +39,8 @@
     (val) => {
       if (val.meta.title) {
         title.value = val.meta.title as string;
+      } else {
+        title.value = '天使动漫论坛';
       }
     },
     {

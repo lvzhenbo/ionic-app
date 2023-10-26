@@ -1,7 +1,7 @@
 <template>
   <IonMenu content-id="main-page">
     <IonHeader>
-      <IonToolbar color="primary">
+      <IonToolbar color="primary" class="!pt-[var(--safe-area-inset-top)]">
         <IonTitle>菜单</IonTitle>
       </IonToolbar>
     </IonHeader>
